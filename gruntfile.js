@@ -4,6 +4,7 @@ module.exports = function(grunt) {
     var srcFiles = [
         'PxLoader.js',
         'PxLoaderImage.js',
+        'PxLoaderAudio.js',
         'PxLoaderSound.js',
         'PxLoaderVideo.js'
     ];

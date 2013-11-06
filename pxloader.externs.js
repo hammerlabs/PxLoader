@@ -54,6 +54,13 @@ PxLoader.prototype.addSound = function(id, url, tags, priority) {};
  * @param {number} priority
  */
 PxLoader.prototype.addVideo = function(url, tags, priority) {};
+/**
+ * @param {*} id
+ * @param {string} url
+ * @param {string|Array} tags
+ * @param {number} priority
+ */
+PxLoader.prototype.addAudio = function(id, url, tags, priority) {};
 
 /**
  * @constructor
@@ -98,6 +105,23 @@ PxLoaderSound.prototype.sound = {};
  * @param {number} priority
  */
 function PxLoaderVideo(url, tags, priority) {}
+/**
+ * @param {PxLoader} pxLoader
+ */
+PxLoaderVideo.prototype.start = function(pxLoader) {};
+PxLoaderVideo.prototype.checkStatus = function() {};
+PxLoaderVideo.prototype.onTimeout = function() {};
+PxLoaderVideo.prototype.getName = function() {};
+PxLoaderVideo.prototype.video = {};
+
+/**
+ * @constructor
+ * @this {PxLoaderAudio}
+ * @param {string} url
+ * @param {string|Array} tags
+ * @param {number} priority
+ */
+function PxLoaderAudio(url, tags, priority) {}
 /**
  * @param {PxLoader} pxLoader
  */
