@@ -1,3 +1,7 @@
+This fork will add some simple tools to help me preload site content. So far it includes:
+* A simple Audio preloading element that only uses HTML5 tags to preload the audio. The new PxLoaderAudio class starts as a copy of PxLoaderVideo and was modified to handle audio with some simple search and replace.
+
+*Original README:*
 PxLoader is a Javascript library that helps you download images, sound files or anything else you need before you take a specific action on your site (like showing a user interface or starting a game). You can use it to create a preloader for HTML5 games and websites.
 
 Details and examples:
